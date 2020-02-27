@@ -25,7 +25,7 @@ apt-get install linux-image-extra-$(uname -r)
 # 更新包管理仓库
 apt-get update
 # 通过apt命令在线安装docker
-apt-get install docker-engine -y
+apt-get install docker.io -y
 
 # 安装与更新 pip
 apt install python-pip -y
